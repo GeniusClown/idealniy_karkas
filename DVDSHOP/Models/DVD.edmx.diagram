@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9e8670d607dc4d0fb033f41d3b899cd6" Name="Diagram1">
+        <EntityTypeShape EntityType="DVDdbModel.merch" Width="1.5" PointX="7.125" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DVDdbModel.orders" Width="1.5" PointX="5.375" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DVDdbModel.point" Width="1.5" PointX="3.125" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DVDdbModel.sostav" Width="1.5" PointX="8.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DVDdbModel.status" Width="1.5" PointX="4.5" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DVDdbModel.sysdiagrams" Width="1.5" PointX="10.375" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DVDdbModel.type_user" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DVDdbModel.users" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="DVDdbModel.FK_sostav_merch" ManuallyRouted="false" />
+        <AssociationConnector Association="DVDdbModel.FK_orders_point" ManuallyRouted="false" />
+        <AssociationConnector Association="DVDdbModel.FK_orders_status" ManuallyRouted="false" />
+        <AssociationConnector Association="DVDdbModel.FK_orders_users" ManuallyRouted="false" />
+        <AssociationConnector Association="DVDdbModel.FK_sostav_orders" ManuallyRouted="false" />
+        <AssociationConnector Association="DVDdbModel.FK_users_type_user" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
